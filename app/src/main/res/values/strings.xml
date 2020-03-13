@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PaintApplication</string>
+    <string name="alert_msg">실패메세지</string>
+    <string name="alert_btn">네</string>
+    <string name="pen_btn">펜</string>
+    <string name="era_btn">지우개</string>
+    <string name="save_btn">저장하기</string>
+    <string name="load_btn">불러오기</string>
+</resources>

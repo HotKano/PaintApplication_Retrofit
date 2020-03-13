@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!-- 캔버스 역할 -->
+    <LinearLayout
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <!-- 하단 레이아웃 펜, 지우개 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#32de57"
+            android:text="@string/save_btn"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/load_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#32de57"
+            android:text="@string/load_btn"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/pen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#32de57"
+            android:text="@string/pen_btn"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/era_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#32de57"
+            android:text="@string/era_btn"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>
